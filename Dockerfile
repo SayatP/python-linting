@@ -7,7 +7,8 @@ RUN pip install --upgrade --no-cache-dir \
   flake8 \
   flake8-bugbear \
   flake8-comprehensions \
-  flake8-import-order
+  flake8-import-order \
+  isort
 
 RUN mkdir ~/.config/
 COPY flake8 ~/.config/flake8

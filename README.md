@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-python@v1
-      - uses: whynothugo/python-linting@master
+      - uses: SayatP/python-linting@master
 ```
 
 ## Configuration

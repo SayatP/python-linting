@@ -1,5 +1,5 @@
 [flake8]
-import-order-style=smarkets
-ignore =
-  B305,  # It's a py2-only non-issue.
-  W503,  # Line jump before binary operator.
+ignore = B305,  # It's a py2-only non-issue.
+max-line-length=88
+exclude=migrations
+format=pylint
